@@ -1,0 +1,22 @@
+<table border="1"
+       cellpadding="5px"
+       cellspacing="5px"
+       style="text-align: center"
+       align="center">
+        <thead style="background-color: gainsboro">
+            <tr>
+                <th>Name</th>
+                <th>Capital</th>
+                <th>Currencies</th>
+                <th>Flag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of result">
+                <td>{{x.name}}</td>
+                <td>{{x.capital}}</td>
+                <td>{{x.currencies[0].code}}</td>
+                <td><img width="100px" height="50px" src="{{x.flag}}"></td>
+            </tr>
+        </tbody>
+</table>
