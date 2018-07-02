@@ -1,5 +1,8 @@
 # LazyLoadApp
 
+![lazy-load-relationship](https://user-images.githubusercontent.com/34129569/42145756-be9218f8-7de0-11e8-867f-40c7476dd1ba.jpg)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
